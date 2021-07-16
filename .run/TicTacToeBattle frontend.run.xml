@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TicTacToeBattle frontend" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <option name="additionalArgs" value="--dart-define=BACKEND_URI=&quot;http://localhost:8080&quot;" />
+    <option name="filePath" value="$PROJECT_DIR$/../tictactoe-battle-frontend/lib/main.dart" />
+    <method v="2" />
+  </configuration>
+</component>
