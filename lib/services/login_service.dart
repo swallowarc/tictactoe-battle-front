@@ -1,8 +1,9 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:tictactoe_battle_frontend/commons/logger/logger.dart';
-import 'package:tictactoe_battle_frontend/domains/login_status.dart';
-import 'package:tictactoe_battle_frontend/repositories/local_storage_repository.dart';
-import 'package:tictactoe_battle_frontend/repositories/tictoctoe_battle_backend_repository.dart';
+
+import '/commons/logger/logger.dart';
+import '/domains/login_status.dart';
+import '/repositories/local_storage_repository.dart';
+import '/repositories/tictactoe_battle_backend_repository.dart';
 
 class LoginService extends StateNotifier<LoginStatus> {
   final LocalStorageRepository _storageRepo;

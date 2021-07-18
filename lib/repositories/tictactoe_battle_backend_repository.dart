@@ -1,10 +1,10 @@
 import 'dart:async';
 
-import 'package:tictactoe_battle_frontend/commons/retry/retry.dart';
-import 'package:tictactoe_battle_frontend/domains/login_status.dart';
-import 'package:tictactoe_battle/tictactoe_battle.dart';
 import 'package:grpc/grpc_web.dart';
 import 'package:retry/retry.dart';
+import 'package:tictactoe_battle/tictactoe_battle.dart';
+import 'package:tictactoe_battle_frontend/commons/retry/retry.dart';
+import 'package:tictactoe_battle_frontend/domains/login_status.dart';
 
 const _retryOpt = RetryOptions(
   maxAttempts: 8,

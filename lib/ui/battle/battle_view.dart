@@ -174,7 +174,8 @@ class _BattleViewField extends HookWidget {
     final controller = useProvider(_controllerProvider.notifier);
     final state = useProvider(_controllerProvider);
 
-    if (state.battleState == BattleState.BATTLE_STATE_MEETING) {
+    if (state.battleState == BattleState.BATTLE_STATE_MEETING ||
+        state.battleState == BattleState.BATTLE_STATE_UNKNOWN) {
       return Center(
         child: Container(
           padding: EdgeInsets.only(top: 30),

@@ -1,11 +1,12 @@
-import 'package:tictactoe_battle_frontend/commons/errors/errors.dart';
-import 'package:tictactoe_battle_frontend/commons/logger/logger.dart';
-import 'package:tictactoe_battle_frontend/repositories/tictoctoe_battle_backend_repository.dart';
-import 'package:tictactoe_battle_frontend/repositories/local_storage_repository.dart';
-import 'package:tictactoe_battle/tictactoe_battle.dart';
 import 'package:grpc/grpc_web.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:protobuf/protobuf.dart';
+import 'package:tictactoe_battle/tictactoe_battle.dart';
+
+import '/commons/errors/errors.dart';
+import '/commons/logger/logger.dart';
+import '/repositories/local_storage_repository.dart';
+import '/repositories/tictactoe_battle_backend_repository.dart';
 
 enum _battleStatus { In, Out }
 

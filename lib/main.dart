@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:tictactoe_battle_frontend/routes/routes.dart';
 
-import 'routes/navigator_observer.dart';
-
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
 

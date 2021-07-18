@@ -1,11 +1,11 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:tictactoe_battle/tictactoe_battle.dart';
-import 'package:tictactoe_battle_frontend/domains/login_status.dart';
 
+import 'domains/login_status.dart';
 import 'infrastructures/env/env.dart';
 import 'infrastructures/local_storage/local_storage.dart';
 import 'repositories/local_storage_repository.dart';
-import 'repositories/tictoctoe_battle_backend_repository.dart';
+import 'repositories/tictactoe_battle_backend_repository.dart';
 import 'services/battle_service.dart';
 import 'services/login_service.dart';
 
