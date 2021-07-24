@@ -39,7 +39,7 @@ flutter pub get
 Use the following command.
 
 ```shell
-flutter run -d chrome
+flutter run -d chrome --dart-define=BACKEND_URI="http://localhost:8080"
 ```
 
 Or use an IDE (Intellij IDEA, Visual Studio Code, etc.) to start debugging.  
