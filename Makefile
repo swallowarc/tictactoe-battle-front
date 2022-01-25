@@ -12,7 +12,8 @@ DOCKER_REGISTRY = swallowarc/tictactoe-battle-frontend
 .PHONY: build/release docker/login docker/build docker/push generate test
 build/release:
 	flutter pub get
-	flutter build web --release --dart-define=BACKEND_URI=$(BACKEND_URI)
+	#flutter build web --release --dart-define=BACKEND_URI=$(BACKEND_URI)
+	flutter build web --release
 
 docker/login:
 	docker login -u $(DOCKER_USER) -p $(DOCKER_PASS)

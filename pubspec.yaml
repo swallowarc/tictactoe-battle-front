@@ -31,7 +31,7 @@ dependencies:
   grpc: ^3.0.0
   tictactoe_battle:
     git:
-      url: ssh://git@github.com/swallowarc/tictactoe-battle-proto.git
+      url: https://git@github.com/swallowarc/tictactoe-battle-proto.git
       ref: main
   logger: ^1.0.0
   retry: ^3.1.0

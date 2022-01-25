@@ -13,3 +13,4 @@ RUN make build/release
 # Stage 2 - Create the run-time image
 FROM nginx:stable-alpine
 COPY --from=build-env /app/build/web /usr/share/nginx/html
+RUN chmod 644 /usr/share/nginx/html/assets/images/*
